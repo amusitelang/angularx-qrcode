@@ -62,7 +62,7 @@
     "reinstall": "rm -rf node_modules && npm install"
   },
   "dependencies": {
-    "qrcodejs2": "0.0.2"
+    "qrcodejs2": "https://github.com/amusitelang/qrcodejs.git"
   },
   "peerDependencies": {
     "@angular/common": ">= 5.0.0 < 9.0.0",
