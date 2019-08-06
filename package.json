@@ -1,12 +1,12 @@
 {
-  "name": "angularx-qrcode",
-  "version": "1.6.4",
-  "author": {},
+  "name": "angularx-qrcode-cil",
+  "version": "1.0.0",
+  "author": "https://github.com/amusitelang",
   "description": "Ionic 3/4 and Angular4/5/6/7/8+ QRCode module generator using qrcodejs",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "angularx-qrcode",
     "angular-qrcode",
@@ -27,13 +27,6 @@
     "ng",
     "typescript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amusitelang/angularx-qrcode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cordobo/angularx-qrcode/issues"
-  },
   "homepage": "https://github.com/cordobo/angularx-qrcode#readme",
   "scripts": {
     "build": "npm run build:esm && npm run build:umd",
@@ -59,7 +52,7 @@
     "reinstall": "rm -rf node_modules && npm install"
   },
   "dependencies": {
-    "qrcodecil":"1.0.2"
+    "qrcodecil": "1.0.2"
   },
   "peerDependencies": {
     "@angular/common": ">= 5.0.0 < 9.0.0",
