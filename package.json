@@ -59,7 +59,7 @@
     "reinstall": "rm -rf node_modules && npm install"
   },
   "dependencies": {
-    "qrcodecil":"1.0.1"
+    "qrcodecil":"1.0.2"
   },
   "peerDependencies": {
     "@angular/common": ">= 5.0.0 < 9.0.0",
