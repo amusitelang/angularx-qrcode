@@ -21,7 +21,7 @@
     "./src/index.ts"
   ],
   "include": [
-    "typings/qrcodejs2.d.ts"
+    "typings/qrcodecil.d.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "dist",
