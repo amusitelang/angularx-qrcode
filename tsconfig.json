@@ -26,7 +26,7 @@
   },
   "include": [
     "src/**/*.ts",
-    "typings/qrcodejs2.d.ts"
+    "typings/qrcodecil.d.ts"
   ],
   "exclude": [
     "src/**/*.spec.ts",

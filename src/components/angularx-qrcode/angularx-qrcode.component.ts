@@ -44,7 +44,7 @@ export class QRCodeComponent implements OnChanges, AfterViewInit {
       return;
     }
     if (!QRCode) {
-      QRCode = require('qrcodejs2');
+      QRCode = require('qrcodecil');
     }
     try {
       if (!this.isValidQrCodeText(this.qrdata)) {
