@@ -39,7 +39,7 @@ var QRCodeComponent = /** @class */ (function () {
             return;
         }
         if (!QRCode) {
-            QRCode = require('qrcodecil');
+            QRCode = require('qrcodejs2');
         }
         try {
             if (!this.isValidQrCodeText(this.qrdata)) {

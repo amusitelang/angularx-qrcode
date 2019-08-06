@@ -1,4 +1,4 @@
-declare module 'qrcodecil';
+declare module 'qrcodejs2';
 
 declare class QRCode {
   public static CorrectLevel: {
